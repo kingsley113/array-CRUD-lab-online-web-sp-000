@@ -7,7 +7,7 @@ type_of_wood = ["maple", "walnut", "oak", "mahogany"]
 end
 
 def add_element_to_end_of_array(array, element)
-type_of_wood << "ebony"
+array << element
 end
 
 def add_element_to_start_of_array(array, element)
